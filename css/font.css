@@ -1,0 +1,47 @@
+
+ @font-face {
+    font-family: 'paybooc-Bold';
+    src: url('../font/payboocOTFBold.eot');
+    src: url('../font/payboocOTFBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/payboocOTFBold.woff2') format('woff2'),
+        url('../font/payboocOTFBold.woff') format('woff'),
+        url('../font/payboocOTFBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'paybooc-Medium';
+    src: url('../font/payboocOTFMedium.eot');
+    src: url('../font/payboocOTFMedium.eot?#iefix') format('embedded-opentype'),
+        url('../font/payboocOTFMedium.woff2') format('woff2'),
+        url('../font/payboocOTFMedium.woff') format('woff'),
+        url('../font/payboocOTFMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('../font/ImcreSoojinOTFRegular.eot');
+    src: url('../font/ImcreSoojinOTFRegular.eot?#iefix') format('embedded-opentype'),
+        url('../font/ImcreSoojinOTFRegular.woff2') format('woff2'),
+        url('../font/ImcreSoojinOTFRegular.woff') format('woff'),
+        url('../font/ImcreSoojinOTFRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+html, body {    
+    font-family:'paybooc-Medium', 'Malgun Gothic', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}
+h3 {    
+    font-family: 'ImcreSoojin', 'Malgun Gothic', Arial, sans-serif;
+}
